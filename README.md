@@ -12,6 +12,10 @@ Here you will see three java classes:
 - imageprocessor.java - The compute() function is written, which finds the mean of the pixels, the size of which were indicated in the terminal
 - MultiThreading.java - The class which extends the Thread class. 
 
+       For smooth visualization, Thread.sleep(5); method is called in the MultiThreading.java class in the line 35. 
+
+       It can be put to 0 in order to see the real speed.
+
        The run() method receives the left,right,top,bottom values of borders of the part of the image to process.
                         
        The run() method is called the same amount, how many cores the PC has
